@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body class="flex justify-center items-center min-h-screen bg-slate-800">
+    <div
+      class="w-80 h-180 bg-white rounded-3xl flex flex-col p-5 lg:flex lg:flex-row-reverse lg:w-200 lg:h-130"
+    >
+      <img
+        width="400"
+        class="hidden lg:flex"
+        src="assets/images/illustration-sign-up-desktop.svg"
+        alt=""
+      />
+      <img
+        width="300"
+        class="lg:hidden"
+        src="assets/images/illustration-sign-up-mobile.svg"
+        alt=""
+      />
+
+      <div class="p-2 lg:p-2 lg:ml-10 lg:mr-8">
+        <h1 class="text-4xl mt-5"><b>Stay updated!</b></h1>
+        <p class="text-sm mt-3">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+
+        <div class="flex flex-row gap-3 mt-3">
+          <img src="assets/images/icon-list.svg" alt="" />
+          <p class="text-sm">Product discovery and building what matters</p>
+        </div>
+        <div class="flex flex-row gap-3 mt-1 lg:mt-3">
+          <img src="assets/images/icon-list.svg" alt="" />
+          <p class="text-sm">Measuring to ensure updates are a success</p>
+        </div>
+        <div class="flex flex-row gap-3 mt-1 lg:mt-3">
+          <img src="assets/images/icon-list.svg" alt="" />
+          <p class="text-sm">And much more!</p>
+        </div>
+        <p class="text-xs mt-5 lg:mt-10"><b>Email address</b></p>
+
+        <fieldset>
+          <input
+            class="rounded-lg border-[1px] w-70 h-10 p-6"
+            type="text"
+            placeholder="ash@loremcompany.com"
+          />
+        </fieldset>
+
+        <a
+          href="second.html"
+          target="_blank"
+          class="block bg-red-400 text-white w-70 p-6 mt-4 rou text-sm rounded-lg hover:bg-slate-800"
+        >
+          Subscribe to monthly newsletter</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
